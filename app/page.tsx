@@ -16,7 +16,7 @@ export default function Home() {
           {/* Left content */}
           <div className="flex flex-col gap-5 max-w-[650px]">
             <h1 className="text-[40px] md:text-[50px] text-white font-semibold leading-tight">
-              Hi, I`m Joylyn Gurure
+              Hi, I&apos;m Joylyn Gurure
               <br />
               <span className="text-transparent bg-clip-text bg-blue-500">
                 Junior Software Developer
@@ -24,7 +24,7 @@ export default function Home() {
             </h1>
 
             <p className="text-gray-200 hidden md:block">
-              I’m a creative and dedicated developer focused on building engaging, responsive web experiences.
+              I&apos;m a creative and dedicated developer focused on building engaging, responsive web experiences.
             </p>
 
             <div className="flex-col md:flex-row hidden md:flex gap-5">

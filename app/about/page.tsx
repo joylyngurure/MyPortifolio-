@@ -7,7 +7,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <main className="min-h-screen w-full flex flex-col  text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
+    <main className="min-h-screen w-full flex flex-col  text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url(&apos;/backimage.jpg&apos;)" }}>
       {/* Navbar at top */}
       <Navbar />
 
@@ -17,19 +17,19 @@ const About = () => {
           <h1 className="text-4xl font-bold text-blue-400 mb-6 mt-20">About Me</h1>
 
           <p className="text-lg leading-7 text-gray-300 mb-4">
-            Hi, I'm <strong>Joylyn Gurure</strong>, a passionate and detail-oriented Junior Software Developer with 7 months of hands-on experience. I specialize in building responsive and dynamic web and mobile applications using modern technologies like React, React Native, and Node.js.
+            Hi, I&apos;m <strong>Joylyn Gurure</strong>, a passionate and detail oriented Junior Software Developer with 7 months of hands on experience. I specialize in building responsive and dynamic web and mobile applications using modern technologies like React, React Native, and Node.js.
           </p>
 
           <p className="text-lg leading-7 text-gray-300 mb-4">
-            I enjoy turning complex problems into simple, elegant solutions. My journey so far has involved working on real-world projects that required collaboration, adaptability, and continuous learning. I'm efficient, a quick learner, and always up for a challenge.
+            I enjoy turning complex problems into simple, elegant solutions. My journey so far has involved working on real-world projects that required collaboration, adaptability, and continuous learning. I am efficient, a quick learner, and always up for a challenge.
           </p>
 
           <p className="text-lg leading-7 text-gray-300 mb-4">
-            Whether it's developing scalable APIs, creating clean UI interfaces, or optimizing performance, I always aim to write clean, maintainable code. I'm currently exploring backend frameworks like NestJS and cloud services to deepen my skills.
+            Whether it&apos;s developing scalable APIs, creating clean UI interfaces, or optimizing performance, I always aim to write clean, maintainable code. I&apos;m currently exploring backend frameworks like NestJS and cloud services to deepen my skills.
           </p>
 
           <p className="text-lg leading-7 text-gray-300 mb-8">
-            Outside of coding, I’m a strong team player who values communication and continuous improvement. I'm excited about the future of tech and always looking for opportunities to grow and contribute.
+            Outside of coding, I&apos;m a strong team player who values communication and continuous improvement. I&apos;m excited about the future of tech and always looking for opportunities to grow and contribute.
           </p>
 
           <Link

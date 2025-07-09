@@ -12,13 +12,13 @@ export default function ContactPage() {
     <main className="min-h-screen w-full flex flex-col text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
       <Navbar />
 
-      {/* Content area fills available space */}
+      
       <div className="flex-grow flex flex-col items-center justify-center px-4">
         <h1 className="text-4xl font-bold text-blue-400 mb-12">Contact Me</h1>
 
         <p className="text-gray-300 text-center max-w-xl mb-8 text-lg">
-          I'm always open to discussing new opportunities, collaborations, or even a quick tech chat! 
-          Feel free to reach out to me via email or WhatsApp — I’ll get back to you as soon as I can.
+          I&apos;m always open to discussing new opportunities, collaborations, or even a quick tech chat! 
+          Feel free to reach out to me via email or WhatsApp — I&apos;ll get back to you as soon as I can.
         </p>
 
         <div className="flex flex-col md:flex-row gap-6">
@@ -40,7 +40,6 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Footer always at bottom */}
       <Footer />
     </main>
   );
