@@ -9,9 +9,9 @@ export default function Home() {
     <main className="min-h-screen flex flex-col bg-[#060a17] relative">
       {/* Background image container */}
       <div
-        className="flex items-center justify-center flex-grow bg-cover bg-center"
-        style={{ backgroundImage: "url('/image.jpg')" }}
-      >
+  className="flex items-center justify-center flex-grow bg-cover bg-center animate-bgMove"
+  style={{ backgroundImage: "url('/backimage.jpg')" }}
+>
         <div className="flex flex-col-reverse md:flex-row items-center justify-between w-full px-20 md:px-40  gap-20 z-[10]">
           {/* Left content */}
           <div className="flex flex-col gap-5 max-w-[650px]">

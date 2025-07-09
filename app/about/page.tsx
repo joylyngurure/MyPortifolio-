@@ -7,7 +7,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <main className="min-h-screen w-full flex flex-col bg-[#060a17] text-white">
+    <main className="min-h-screen w-full flex flex-col  text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
       {/* Navbar at top */}
       <Navbar />
 

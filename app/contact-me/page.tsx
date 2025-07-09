@@ -9,7 +9,7 @@ export default function ContactPage() {
   const whatsappNumber = "263788735065"; 
 
   return (
-    <main className="min-h-screen w-full flex flex-col bg-[#060a17] text-white">
+    <main className="min-h-screen w-full flex flex-col text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
       <Navbar />
 
       {/* Content area fills available space */}

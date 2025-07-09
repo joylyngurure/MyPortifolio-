@@ -10,7 +10,7 @@ export default function SkillsPage() {
       <Navbar />
 
       {/* Content fills the screen between navbar and footer */}
-      <div className="flex-grow flex flex-col items-center justify-center px-4 bg-[#060a17]">
+      <div className="flex-grow flex flex-col items-center justify-center px-4  bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
         <h1 className="text-4xl font-bold text-blue-400 mb-6 self-center">
           My Skills
         </h1>

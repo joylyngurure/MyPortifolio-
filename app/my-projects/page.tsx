@@ -31,7 +31,7 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen flex flex-col bg-[#060a17] text-white">
+    <main className="min-h-screen flex flex-col  text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
       <Navbar />
 
       {/* Page content */}
