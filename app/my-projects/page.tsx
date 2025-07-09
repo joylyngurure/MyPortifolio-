@@ -31,16 +31,18 @@ const projects = [
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen flex flex-col  text-white bg-cover bg-center animate-bgMove" style={{ backgroundImage: "url('/backimage.jpg')" }}>
+    <main
+      className="min-h-screen flex flex-col text-white bg-cover bg-center animate-bgMove"
+      style={{ backgroundImage: "url('/backimage.jpg')" }}
+    >
       <Navbar />
 
-      {/* Page content */}
-      <div className="flex-grow px-4 py-12">
-        <h1 className="text-4xl font-bold text-center text-blue-400 mb-12 py-20">
+      <div className="flex-grow px-4 sm:px-6 lg:px-20 py-12">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-blue-400 mb-12 mt-18">
           My Projects
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} index={index} />
           ))}
@@ -67,21 +69,21 @@ function ProjectCard({
 }) {
   return (
     <motion.div
-      initial={{ opacity: 0, x: 100 }}
-      animate={{ opacity: 1, x: 0 }}
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{
         duration: 0.6,
         ease: "easeOut",
         delay: index * 0.2,
       }}
-      className="w-[360px] h-[400px] bg-white/10 border border-white/20 backdrop-blur-md rounded-xl overflow-hidden shadow-md transition-all duration-300"
+      className="w-full max-w-[360px] mx-auto sm:mx-0 h-auto bg-white/10 border border-white/20 backdrop-blur-md rounded-xl overflow-hidden shadow-md transition-all duration-300"
     >
-      <div className="relative w-full h-[220px] bg-white">
+      <div className="relative w-full h-52 bg-white">
         <Image
           src={image}
           alt={`${title} Image`}
           width={360}
-          height={500}
+          height={220}
           unoptimized
           priority
           className="w-full h-full object-contain"
@@ -89,8 +91,8 @@ function ProjectCard({
       </div>
 
       <div className="p-4">
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
-        <p className="text-sm text-gray-300 mb-4">{description}</p>
+        <h2 className="text-lg sm:text-xl font-semibold mb-2">{title}</h2>
+        <p className="text-sm sm:text-base text-gray-300 mb-4">{description}</p>
         <Link
           href={link}
           target="_blank"
