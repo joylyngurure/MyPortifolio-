@@ -12,12 +12,10 @@ export default function Skills() {
     >
       <div className="wrap">
         <Reveal>
-          <SectionHeading id="skills-title" eyebrow="Skills and tools">
-           
-          </SectionHeading>
+          <SectionHeading id="skills-title" eyebrow="Skills and tools" />
         </Reveal>
 
-        <div className="mt-7 grid gap-x-16 gap-y-8 lg:grid-cols-12">
+        <div className="mt-5 grid gap-x-16 gap-y-8 lg:grid-cols-12">
           <Reveal className="lg:col-span-4">
             <h3 className="text-2xl">{primary.title}</h3>
             <ul className="mt-5 flex flex-wrap gap-2.5">
